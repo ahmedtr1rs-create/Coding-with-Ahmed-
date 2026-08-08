@@ -328,6 +328,7 @@ hr{
     font-size: 35px;        /* تصغير العنوان من 70px لـ 35px */
     margin: 20px 10px;
     text-align: center;
+    scroll-margin-top: 150px ;
   }
 
   h1 {
@@ -339,6 +340,7 @@ hr{
     flex-direction: column;  /* ترتيب الكروت رأسي */
     align-items: center;
     width: 100%;
+    scroll-margin-top: 150px ;
   }
 
   .box1, .box2, .box3, .box4 {
@@ -350,11 +352,13 @@ hr{
 
   /* 4. ضبط قسم "عني" (About) وقسم "تواصل معي" (Contact) */
   #abo {
-    width: 90%;             /* بدل 1000px الثابتة */
+    width: 90%;
+    scroll-margin-top: 150px ;/* بدل 1000px الثابتة */
   }
 
   #contact {
-    width: 90%;             /* بدل 500px الثابتة */
+    width: 90%;
+    scroll-margin-top: 150px ;/* بدل 500px الثابتة */
   }
 
   /* 5. ضبط الصور عشان متخرجش بره الحاوية بتاعتها */
